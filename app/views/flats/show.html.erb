@@ -1,0 +1,23 @@
+<h1><%= @flat.name %></h1>
+
+<p><%= @flat.name %></p>
+
+<div class="card_description">
+  <h2>A bit more about this flat...</h2>
+  <p><%= @flat.description %></p>
+</div>
+
+<div class="details">
+  <h2>Details</h2>
+  <p> <%= @flat.number_of_guests %></p>
+  <p> <%= @flat.price_per_night %>€</p>
+</div>
+
+<h2>Book this place !</h2>
+<form action="">
+  <label for="from">from</label>
+  <input type="date" id="from_date">
+  <label for="to">to</label>
+  <input type="date" id="to_date">
+  <input type="submit">
+</form>
